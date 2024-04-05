@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Sectiunea pentru teorie -->
+    <TextView
+        android:id="@+id/textViewTheoryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teorie fizica"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewTheoryContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aici este locul pentru teorie..."
+        android:padding="16dp"/>
+
+    <!-- Sectiunea pentru exercitii -->
+    <TextView
+        android:id="@+id/textViewExerciseTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exerciții"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/buttonStartExercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Începeți exercițiile"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Sectiunea pentru quiz -->
+    <TextView
+        android:id="@+id/textViewQuizTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/buttonStartQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Începeți quiz-ul"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>
